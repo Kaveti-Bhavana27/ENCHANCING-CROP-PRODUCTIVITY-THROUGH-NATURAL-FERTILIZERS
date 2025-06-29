@@ -1,0 +1,12 @@
+<html>
+<body>
+<img src="https://www.indiatravelblog.net/wp-content/uploads/2020/05/india-states-and-union-territories-map-.png" usemap="#mymap"/>
+
+
+area target="_blank" alt="andhra pradesh" title="andhra pradesh" href="ap.html" coords="637,831,430,1083,350,982" shape="poly">
+    <area target="_blank" alt="karnataka" title="karnataka" href="karnataka.html" coords="323,903,315,934,380,1103,284,1125,237,991" shape="poly">
+    <area target="_blank" alt="tamilnadu" title="tamilnadu" href="tamilnadu.html" coords="350,1195,400,1103,495,1084,402,1292" shape="poly">
+    <area target="_blank" alt="telangana" title="telangana" href="telangana.html" coords="517,863,441,795,368,858,401,949,501,822,463,851,462,806,511,731,418,802,462,875,385,868,460,900,495,881,479,873,497,884" shape="poly">
+    <area target="_blank" alt="maharastra" title="maharastra" href="maharastra.html" coords="445,730,192,821,219,939,365,831" shape="poly">
+    <area target="_blank" alt="kerala" title="kerala" href="kerala.html" coords="367,1237,320,1164,281,1116,351,1294" shape="poly">
+</map>

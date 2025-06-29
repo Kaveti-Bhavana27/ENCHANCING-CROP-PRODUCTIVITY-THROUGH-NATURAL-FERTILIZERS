@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fertilizers of Organic Farming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#" onclick="showHome()">Home</a>
+        <a href="#" onclick="showAboutUs()">About Us</a>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container" id="content">
+        <h1>Fertilizers of Organic Farming</h1>
+        <h2>Select Crop and Soil Type</h2>
+        
+        <!-- Crop Dropdown -->
+        <label for="cropSelect">Choose a crop:</label>
+        <select id="cropSelect" onchange="showCropInfo()">
+            <option value="">--Select Crop--</option>
+            <option value="paddy">Paddy</option>
+            <option value="blackgram">Blackgram</option>
+        </select>
+        
+        <!-- Soil Type Dropdown -->
+        <label for="soilSelect">Choose soil type:</label>
+        <select id="soilSelect">
+            <option value="clayeyloam">Clayey Loam</option>
+        </select>
+        
+        <!-- Information Section -->
+        <div id="infoSection"></div>
+    </div>
+
+    <!-- About Us Section -->
+    <div id="aboutUsSection" class="hidden">
+        <h1>About Us</h1>
+        <p>Contact No: 9963630517</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Fertilizers</title>
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://i.pinimg.com/originals/dd/f4/0b/ddf40b85196cbc1028a907616990ba92.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        /* Heading style */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: green;
+                        text-align: center; /* Center the heading */
+        }
+
+        /* Unified container */
+        .container {
+            background-color: limegreen; /* Bright green background */
+            padding: 40px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 500px; /* Increased max-width for more space */
+            text-align: center;
+        }
+
+        /* Styling for form elements */
+        label {
+            font-size: 1em;
+            font-weight: bold;
+            color: #fff;
+            display: block;
+            margin-top: 15px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            margin-top: 5px;
+            background-color:blue ; /* Dodger blue background for select fields */
+            color: white; /* White text */
+          
+        }
+
+        /* Button styling */
+        button {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 5px;
+            border: none;
+            background-color: white; /* Green background */
+            color: green;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fertilizers for Organic Farming</h1> <!-- Heading at the top -->
+
+    <div class="container"> <!-- Form container -->
+        <label for="cropType">Agriculture Crop Type:</label>
+        <select id="cropType">
+            <option value="paddy">Paddy(వరి)</option>
+            <option value="blackgram">Blackgram(నల్లపప్పు)</option>
+        </select>
+
+        <label for="soilType">Soil Type:</label>
+        <select id="soilType">
+            <option value="clayeyloam">Clayey Loam(కలపు మట్టివిడి )</option>
+        </select>
+
+        <label for="language">Language:</label>
+        <select id="language">
+            <option value="english">English</option>
+            <option value="telugu">తెలుగు </option>
+        </select>
+
+        
+ <button onclick="window.location.href='home.html'">Back</button>
+ <button onclick="navigatePage()">Submit</button>
+    </div>
+
+    <script src="scriptcrop.js"></script>
+</body>
+</html>

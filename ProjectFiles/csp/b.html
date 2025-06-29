@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Fertilizers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="#" onclick="displayHome()">crop  details</a>
+            <a href="#" onclick="displayAbout()">About Us</a>
+            <a href="#" onclick="displaySafety()">Safety Measures</a>
+        </nav>
+    </div>
+
+    <!-- First Page Content -->
+    <div id="homePage" class="content">
+        <div class="banner">
+            <img src="organic_fertilizer.jpg" alt="Organic Fertilizers" class="small-image">
+            <h1><p class="description">
+                Organic fertilizers are made from natural materials like animal manure, compost, and bone meal, and are used to enrich soil and supply essential nutrients to plants. Unlike synthetic fertilizers, they do not contain harmful chemicals, making them a more environmentally friendly and sustainable option...
+            </p></h1>
+        </div>
+
+        
+        <!-- Fertilizer and Info Section -->
+        <div id="cropInfo" class="crop-info">
+            <div class="left-buttons">
+                <button onclick="displayBeejamrutham()">Beejamrutham</button>
+                <button onclick="displayDhravajeevamrutham()">Dhrava Jeevamrutham</button>
+            </div>
+
+            <div class="right-info" id="rightInfo">
+                <!-- Dynamic information will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Safety Measures Page -->
+    <div id="safetyPage" class="content" style="display:none;">
+        <h2>Safety Measures to Be Taken</h2>
+        <p>When using organic fertilizers, safety is important. Always wear protective gloves and masks when handling animal manure or compost, as they can carry harmful pathogens. Use fertilizers in appropriate amounts to avoid over-fertilization and environmental damage.</p>
+    </div>
+
+    <!-- About Us Page -->
+    <div id="aboutPage" class="content" style="display:none;">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing natural and organic solutions for healthier and sustainable agriculture. Our mission is to promote organic farming methods and educate the community about the benefits of organic fertilizers for soil health and plant nutrition.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

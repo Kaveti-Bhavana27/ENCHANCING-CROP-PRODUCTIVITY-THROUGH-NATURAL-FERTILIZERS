@@ -1,0 +1,42 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js">
+</script>
+<script>
+$(document).ready(function()
+{
+ $("form").submit(function()
+ {
+ alert("form is submitted");
+ });
+ $("input").focus(function()
+ {
+ $(this).css("background-color","yellow");
+ });
+ $("input").blur(function()
+ {
+ $(this).css("background-color","pink");
+ });
+ $("input").change(function()
+ {
+ alert("Text is changed");
+ });
+ $("input").select(function()
+ {
+ alert("Text is selected");
+ });
+});
+</script>
+</head>
+<body>
+<form method="post">
+Enter name:    <input type="text" name="t1"><br>
+Enter password:<input type="password" name="t2"><br>
+<button type="Submit">submit</button>
+</form>
+</body>
+</html>
+
+
+
+

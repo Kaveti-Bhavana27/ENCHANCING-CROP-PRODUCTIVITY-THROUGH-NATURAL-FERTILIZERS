@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f8f9;
+    padding: 20px;
+    max-width:100%;
+}
+
+/* Header Styles */
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #3a6e3a;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Page Content Layout */
+.page-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Image Styles */
+img.top-left, img.bottom-right {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+img.top-left:hover, img.bottom-right:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(58, 110, 58, 0.4);
+}
+
+/* Button Styles */
+button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3a6e3a;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #2d5232;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+/* Info Box Styles */
+.info-box {
+    background-color: #e9f3ec;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width:2000px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.info-box h3 {
+    font-size: 1.8rem;
+    color: #3a6e3a;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Background Effect for Info Box */
+body.beejamrutham-background {
+    background-image: url('beejamrutham-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    transition: background 0.5s ease-in-out;
+}
+
+body.dhravajeevamrutham-background {
+    background-image: url('dravajeevamrutham-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    transition: background 0.5s ease-in-out;
+}
